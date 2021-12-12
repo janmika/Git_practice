@@ -1,85 +1,61 @@
-# Contributing
+# Contributing Guidelines
 
-When contributing a major change to this repository, please first discuss the change you wish to make via an [issue](contributing/ISSUES.md) or via
-[Slack in the #code-of-conduct channel](https://callforcode.org/slack). Minor issues can simply be addressed by sending by a pull request.
+Thank you for your interest in contributing to our project. Whether it's a bug report, new feature, correction, or additional 
+documentation, we greatly value feedback and contributions from our community.
 
-All [pull requests](contributing/PULL-REQUESTS.md) will require you to ensure the change is certified via the [Developer Certificate of Origin (DCO)](https://github.com/apps/dco/). The DCO is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project.
+Please read through this document before submitting any issues or pull requests to ensure we have all the necessary 
+information to effectively respond to your bug report or contribution.
 
-Please note we have a [Code of Conduct](#code-of-conduct), please follow it in all your interactions with the project and its community.
 
-## Pull Request Process
+## Reporting Bugs/Feature Requests
 
-1. Fork the repository. 
-2. Commit your changes to your fork. 
-3. Submit a pull request.
-4. Handle any feedback before the request is merged.
-5. Accept our sincere Thank You!
+We welcome you to use the GitHub issue tracker to report bugs or suggest features.
+
+When filing an issue, please check [existing open](https://github.com/${GITHUB_ORG}/${GITHUB_REPO}/issues), or [recently closed](https://github.com/${GITHUB_ORG}/${GITHUB_REPO}/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed%20), issues to make sure somebody else hasn't already 
+reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
+
+* A reproducible test case or series of steps
+* The version of our code being used
+* Any modifications you've made relevant to the bug
+* Anything unusual about your environment or deployment
+
+
+## Contributing via Pull Requests
+Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
+
+1. You are working against the latest source on the *master* branch.
+2. You check existing open, and recently merged, pull requests to make sure someone else hasn't addressed the problem already.
+3. You open an issue to discuss any significant work - we would hate for your time to be wasted.
+
+To send us a pull request, please:
+
+1. Fork the repository.
+2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
+3. Ensure local tests pass.
+4. Commit to your fork using clear commit messages.
+5. Send us a pull request, answering any default questions in the pull request interface.
+6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
+
+GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and 
+[creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+
+
+## Finding contributions to work on
+Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels ((enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any ['help wanted'](https://github.com/${GITHUB_ORG}/${GITHUB_REPO}/labels/help%20wanted) issues is a great place to start. 
+
 
 ## Code of Conduct
+This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct). 
+For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact 
+opensource-codeofconduct@amazon.com with any additional questions or comments.
 
-### Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+## Security issue notifications
+If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
 
-### Our Standards
 
-Examples of behavior that contributes to creating a positive environment
-include:
+## Licensing
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+See the [LICENSE](https://github.com/${GITHUB_ORG}/${GITHUB_REPO}/blob/master/LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
 
-Examples of unacceptable behavior by participants include:
-
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
-
-### Our Responsibilities
-
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
-
-### Scope
-
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
-
-### Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team on [Slack in the #code-of-conduct channel](https://callforcode.org/slack). 
-
-All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
-
-### Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [http://contributor-covenant.org/version/1/4][version]
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+We may ask you to sign a [Contributor License Agreement (CLA)](http://en.wikipedia.org/wiki/Contributor_License_Agreement) for larger changes.
